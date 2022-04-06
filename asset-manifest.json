@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/bloom/static/css/main.a033c0e7.chunk.css",
+    "main.js": "/bloom/static/js/main.c67bcae0.chunk.js",
+    "main.js.map": "/bloom/static/js/main.c67bcae0.chunk.js.map",
+    "runtime-main.js": "/bloom/static/js/runtime-main.fd0ffbb0.js",
+    "runtime-main.js.map": "/bloom/static/js/runtime-main.fd0ffbb0.js.map",
+    "static/js/2.61bd8824.chunk.js": "/bloom/static/js/2.61bd8824.chunk.js",
+    "static/js/2.61bd8824.chunk.js.map": "/bloom/static/js/2.61bd8824.chunk.js.map",
+    "static/js/3.773fadee.chunk.js": "/bloom/static/js/3.773fadee.chunk.js",
+    "static/js/3.773fadee.chunk.js.map": "/bloom/static/js/3.773fadee.chunk.js.map",
+    "index.html": "/bloom/index.html",
+    "static/css/main.a033c0e7.chunk.css.map": "/bloom/static/css/main.a033c0e7.chunk.css.map",
+    "static/js/2.61bd8824.chunk.js.LICENSE.txt": "/bloom/static/js/2.61bd8824.chunk.js.LICENSE.txt",
+    "static/media/arrow.c64b1c0d.svg": "/bloom/static/media/arrow.c64b1c0d.svg",
+    "static/media/cart-active.bdc3b021.svg": "/bloom/static/media/cart-active.bdc3b021.svg",
+    "static/media/cart-small-active.18088c9b.svg": "/bloom/static/media/cart-small-active.18088c9b.svg",
+    "static/media/cart-small.211add27.svg": "/bloom/static/media/cart-small.211add27.svg",
+    "static/media/cart.b81cbcea.svg": "/bloom/static/media/cart.b81cbcea.svg",
+    "static/media/fb.92c54416.svg": "/bloom/static/media/fb.92c54416.svg",
+    "static/media/hero-img.a9445848.png": "/bloom/static/media/hero-img.a9445848.png",
+    "static/media/home-active.0bde0c4a.svg": "/bloom/static/media/home-active.0bde0c4a.svg",
+    "static/media/home.c58eb4cd.svg": "/bloom/static/media/home.c58eb4cd.svg",
+    "static/media/insta.544f4ecc.svg": "/bloom/static/media/insta.544f4ecc.svg",
+    "static/media/leaf-active.c8dbf5c1.svg": "/bloom/static/media/leaf-active.c8dbf5c1.svg",
+    "static/media/leaf.fd2cf111.svg": "/bloom/static/media/leaf.fd2cf111.svg",
+    "static/media/logo.e8ee3a13.svg": "/bloom/static/media/logo.e8ee3a13.svg",
+    "static/media/twitter.600683e1.svg": "/bloom/static/media/twitter.600683e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd0ffbb0.js",
+    "static/js/2.61bd8824.chunk.js",
+    "static/css/main.a033c0e7.chunk.css",
+    "static/js/main.c67bcae0.chunk.js"
+  ]
+}
