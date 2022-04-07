@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bloom/static/css/main.a033c0e7.chunk.css",
-    "main.js": "/bloom/static/js/main.c67bcae0.chunk.js",
-    "main.js.map": "/bloom/static/js/main.c67bcae0.chunk.js.map",
+    "main.js": "/bloom/static/js/main.eaf9b50e.chunk.js",
+    "main.js.map": "/bloom/static/js/main.eaf9b50e.chunk.js.map",
     "runtime-main.js": "/bloom/static/js/runtime-main.fd0ffbb0.js",
     "runtime-main.js.map": "/bloom/static/js/runtime-main.fd0ffbb0.js.map",
-    "static/js/2.61bd8824.chunk.js": "/bloom/static/js/2.61bd8824.chunk.js",
-    "static/js/2.61bd8824.chunk.js.map": "/bloom/static/js/2.61bd8824.chunk.js.map",
+    "static/js/2.0a88b966.chunk.js": "/bloom/static/js/2.0a88b966.chunk.js",
+    "static/js/2.0a88b966.chunk.js.map": "/bloom/static/js/2.0a88b966.chunk.js.map",
     "static/js/3.773fadee.chunk.js": "/bloom/static/js/3.773fadee.chunk.js",
     "static/js/3.773fadee.chunk.js.map": "/bloom/static/js/3.773fadee.chunk.js.map",
     "index.html": "/bloom/index.html",
     "static/css/main.a033c0e7.chunk.css.map": "/bloom/static/css/main.a033c0e7.chunk.css.map",
-    "static/js/2.61bd8824.chunk.js.LICENSE.txt": "/bloom/static/js/2.61bd8824.chunk.js.LICENSE.txt",
+    "static/js/2.0a88b966.chunk.js.LICENSE.txt": "/bloom/static/js/2.0a88b966.chunk.js.LICENSE.txt",
     "static/media/arrow.c64b1c0d.svg": "/bloom/static/media/arrow.c64b1c0d.svg",
     "static/media/cart-active.bdc3b021.svg": "/bloom/static/media/cart-active.bdc3b021.svg",
     "static/media/cart-small-active.18088c9b.svg": "/bloom/static/media/cart-small-active.18088c9b.svg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fd0ffbb0.js",
-    "static/js/2.61bd8824.chunk.js",
+    "static/js/2.0a88b966.chunk.js",
     "static/css/main.a033c0e7.chunk.css",
-    "static/js/main.c67bcae0.chunk.js"
+    "static/js/main.eaf9b50e.chunk.js"
   ]
 }
