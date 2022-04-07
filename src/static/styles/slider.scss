@@ -1,0 +1,38 @@
+@import "./config", "./funcs", "./mixins";
+
+.slider {
+    @include flex-box(row, flex-start, center);
+
+    & .arrow-box {
+        width: 2.5vw;
+        cursor: pointer;
+        @include flex-box(row, center, center);
+
+        @include avg-screens {
+            width: 25px;
+        }
+    }
+
+    & .slider-items {
+        width: 100%;
+        display: inline-grid;
+        white-space: nowrap;
+        overflow: hidden;
+
+        // &::-webkit-scrollbar {
+        //     display: none;
+        // }
+    }
+
+    & .card-container {
+        position: relative;
+        display: inline-block;
+        // background-color: aqua;
+        // border: 0.5px solid grey;
+        height: 29vw;
+
+        @media screen and (max-width: 1000px) {
+            height: 300px;
+        }
+    }
+}

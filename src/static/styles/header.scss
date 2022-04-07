@@ -1,0 +1,131 @@
+@import "./config", "./funcs", "./mixins";
+
+.header-avg-big {
+    width: 100%;
+    height: 6vw;
+    background-color: $white;
+    padding: 0 5vw;
+    border-bottom: 0.1vw solid $secondary-light;
+
+    @include flex-box(row, flex-start, center);
+
+    @include avg-screens {
+        border-bottom: 0.05px solid $secondary-light;
+        height: 80px;
+    }
+
+    .logo {
+        width: 15vw;
+        @include avg-screens {
+            width: 200px;
+        }
+    }
+
+    .nav-avg-big {
+        margin-left: auto;
+        @include flex-box(row, center, center);
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+        font-weight: weight(regular);
+        margin: 0 1vw;
+
+        @include avg-screens {
+            margin: 0 20px;
+        }
+    }
+
+    .nav-link-active {
+        color: $primary;
+    }
+
+    .cart-link {
+        margin-left: 2vw;
+        width: 3.5vw;
+        height: 3.5vw;
+        border-radius: 50%;
+        background-color: $white;
+        position: relative;
+        border: 0.05vw solid $primary;
+        @include flex-box(row, center, center);
+
+        @include avg-screens {
+            margin-left: 20px;
+            width: 50px;
+            height: 50px;
+            border: 1px solid $primary;
+        }
+
+        .cart-items {
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform: translate(25%, -25%);
+            font-size: 0.45rem;
+            font-weight: weight(medium);
+            background-color: $white;
+            border: inherit;
+            border-radius: 50%;
+            width: 1.55vw;
+            height: 1.55vw;
+            @include flex-box(row, center, center);
+
+            @include avg-screens {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    .cart-link-active {
+        background-color: $primary;
+    }
+}
+
+.header-small {
+    width: 100%;
+    height: 65px;
+    background-color: $white;
+    border-bottom: 0.05px solid $secondary-light;
+    @include flex-box(row, center, center);
+
+    .logo {
+        width: 150px;
+    }
+}
+
+.nav-small {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    width: 100%;
+    height: 50px;
+    background-color: $white;
+    border-top: 0.05px solid $secondary-light;
+    @include flex-box(row, space-around, center);
+
+    .nav-small-icon {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        position: relative;
+
+        .cart-items-div {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: $white;
+            border-radius: 50%;
+            width: 18px;
+            height: 18px;
+            font-size: 0.4rem;
+            font-weight: weight(regular);
+            border: 0.05px solid $primary;
+            transform: translate(50%, -10%);
+            @include flex-box(row, center, center);
+            padding-top: 2px;
+        }
+    }
+}

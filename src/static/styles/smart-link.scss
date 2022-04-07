@@ -1,0 +1,60 @@
+@import "./config", "./funcs", "./mixins";
+
+.link {
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.protector {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 4;
+}
+
+.ripple {
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 1;
+    animation: ripple 500ms linear;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(10);
+    }
+}
+
+.highlight {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    animation: tap 150ms linear;
+}
+
+@keyframes tap {
+    from {
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}

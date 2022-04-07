@@ -1,0 +1,5 @@
+@use "./config";
+
+@function weight($weight) {
+    @return map-get($map: $font-weights, $key: $weight);
+}
